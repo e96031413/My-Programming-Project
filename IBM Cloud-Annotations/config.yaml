@@ -1,0 +1,7 @@
+name: testbirds
+buckets:
+  training: testbirds
+  output: testbirds
+trainingParams:
+  gpu: k80
+  steps: '500'
