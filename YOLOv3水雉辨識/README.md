@@ -14,6 +14,12 @@
 * [yolov3_10000.weights](https://drive.google.com/file/d/1ebXi5TXQh1OUu2_spayXL3VA25hQZTxq/view?usp=sharing) - 水雉的YOLOv3版模型，準確度比Tiny版高，能辨識影片，缺點是FPS性能較低。
 * [yolov3-tiny_final_5020.weights](https://drive.google.com/file/d/1blyiu4VQNO8DXVBnJ220AclhuzcdRx8G/view?usp=sharing) - 水雉的YOLOv3 Tiny版模型，較不耗硬體資源，缺點是準確度較低，辨識影片的成功度較低。
 
+### 訓練模型使用的cfg檔案
+
+* [yolov3.cfg](https://gist.github.com/e96031413/659746b2d213a9574b5898f2393a8b6c) - YOLOv3的cfg檔案（針對單class)
+
+* [yolov3-tiny.cfg](https://gist.github.com/e96031413/bd77222a608999db2e58922f1be35d76) - YOLOv3 Tiny的cfg檔案（針對單class)
+
 ### 相關教學文章
 
 * [NVIDIA Jetson TX2學習筆記（三）:執行YOLOv3](https://medium.com/@yanweiliu/nvidia-jetson-tx2%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-%E4%B8%89-%E5%AE%89%E8%A3%9Dopencv-c62e2435ad57) - 在TX2訓練YOLOv3和執行YOLOv3
@@ -25,4 +31,3 @@
 * [Raspberry Pi學習筆記（二十七）：在Pi上執行YOLOv3](https://medium.com/@yanweiliu/raspberry-pi%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-%E4%BA%8C%E5%8D%81%E4%B8%83-%E5%9C%A8pi%E4%B8%8A%E5%9F%B7%E8%A1%8Cyolov3-9cf124d5d582) - 為了讓Pi也能辨識水雉，我們來看看如何將YOLOv3模型部署到Pi上吧
 
 * [Raspberry Pi學習筆記（二十八）：在Pi 3B+上安裝OpenVINO環境（搭配第一代Intel® Movidius™ NCS運算棒）](https://medium.com/@yanweiliu/raspberry-pi%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-%E4%BA%8C%E5%8D%81%E5%85%AB-%E5%9C%A8pi-3b-%E4%B8%8A%E5%AE%89%E8%A3%9Dopenvino%E7%92%B0%E5%A2%83-%E6%90%AD%E9%85%8D%E7%AC%AC%E4%B8%80%E4%BB%A3intel-movidius-ncs%E9%81%8B%E7%AE%97%E6%A3%92-744ce6709eeb) - 在Pi上跑YOLO好慢喔，能不能加速啊？還沒辨識成功，水雉都飛走了呢！沒問題，我們用Intel的NCS運算棒加速吧~
-
