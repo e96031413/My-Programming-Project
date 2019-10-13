@@ -1,3 +1,10 @@
+### 水雉圖片約1200張
+
+本壓縮檔包含原始圖片1200張、標記好的圖片、標記好的label txt文件......等
+
+* [標記好的圖片](https://drive.google.com/file/d/1Sbxn-v2FOKqiO-PWO0iS12xZ2RxKHK2s/view?usp=sharing
+) - 檔案257MB。
+
 ### 模型Weights下載
 
 目前有YOLOv3、YOLOv3-tiny兩個版本，持續訓練中~~~
