@@ -17,6 +17,6 @@ def extract_log(log_file, new_log_file, key_word):
     f.close()
     train_log.close()
  
-extract_log('trainRecord.log', 'train_log_loss.txt', 'images')
-extract_log('trainRecord.log', 'train_log_iou.txt', 'IOU')
+extract_log('yolov3-tiny.log', 'train_log_loss.txt', 'images')
+extract_log('yolov3-tiny.log', 'train_log_iou.txt', 'IOU')
 

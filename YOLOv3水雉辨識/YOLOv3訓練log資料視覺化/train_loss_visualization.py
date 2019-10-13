@@ -7,9 +7,9 @@ import matplotlib.pyplot as plt
  
  
 #根据自己的log_loss.txt中的行数修改lines, 修改训练时的迭代起始次数(start_ite)和结束次数(end_ite)。
-lines = 609
+lines = 5020
 start_ite = 1 #log_loss.txt里面的最小迭代次数
-end_ite = 609 #log_loss.txt里面的最大迭代次数
+end_ite = 5020 #log_loss.txt里面的最大迭代次数
 step = 10 #跳行数，决定画图的稠密程度
 igore = 0 #当开始的loss较大时，你需要忽略前igore次迭代，注意这里是迭代次数
  
