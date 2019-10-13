@@ -1,0 +1,5 @@
+classes= 1
+train  = /home/e96031413/0913yolo/train.txt
+valid  = /home/e96031413/0913yolo/test.txt
+names = data/voc.names
+backup = backup
