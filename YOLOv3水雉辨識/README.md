@@ -12,7 +12,9 @@
 目前有YOLOv3、YOLOv3-tiny兩個版本，持續訓練中~~~
 
 * [yolov3_10000.weights](https://drive.google.com/file/d/1ebXi5TXQh1OUu2_spayXL3VA25hQZTxq/view?usp=sharing) - 水雉的YOLOv3版模型，準確度比Tiny版高，能辨識影片，缺點是FPS性能較低。
-* [yolov3-tiny_final_5020.weights](https://drive.google.com/file/d/1blyiu4VQNO8DXVBnJ220AclhuzcdRx8G/view?usp=sharing) - 水雉的YOLOv3 Tiny版模型，較不耗硬體資源，缺點是準確度較低，辨識影片的成功度較低。
+* [yolov3-tiny_90000.weights](https://drive.google.com/file/d/1BYgMXw-7eLTFX2851KhbDumWIns3JLkb/view?usp=sharing) - 水雉的YOLOv3 Tiny版模型，較不耗硬體資源，缺點是準確度較低。
+* [yolov2-tiny_300000.weights](https://drive.google.com/file/d/1v85WdFMNIEORdk9texFtuFfFmr5q5uqc/view?usp=sharing) - 水雉的YOLOv2 Tiny版模型。
+
 
 ### 訓練模型使用的cfg檔案
 
@@ -22,7 +24,7 @@
 
 ### 相關教學文章
 
-* [NVIDIA Jetson TX2學習筆記（三）:執行YOLOv3](https://medium.com/@yanweiliu/nvidia-jetson-tx2%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-%E4%B8%89-%E5%AE%89%E8%A3%9Dopencv-c62e2435ad57) - 在TX2訓練YOLOv3和執行YOLOv3
+* [NVIDIA Jetson TX2學習筆記（三）:執行YOLOv3](https://medium.com/@yanweiliu/nvidia-jetson-tx2%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-%E4%B8%89-%E5%AE%89%E8%A3%9Dopencv-c62e2435ad57) - 20191025更新：使用AlexeyAB版本的darknet效果比原版好。在TX2訓練YOLOv3和執行YOLOv3
 
 * [Python影像辨識筆記(九)：分別在Windows和Ubuntu 18.04上安裝並執行YOLOv3（使用GPU）](https://medium.com/@yanweiliu/python%E5%BD%B1%E5%83%8F%E8%BE%A8%E8%AD%98%E7%AD%86%E8%A8%98-%E5%85%AB-%E5%88%86%E5%88%A5%E5%9C%A8windows%E5%92%8Cubuntu-18-04%E4%B8%8A%E5%AE%89%E8%A3%9D%E4%B8%A6%E5%9F%B7%E8%A1%8Cyolov3-%E4%BD%BF%E7%94%A8gpu-d2b77347fde) - 除了在TX2上執行外，我們也能在Windows和Ubuntu系統上執行並訓練YOLOv3喔~
 
