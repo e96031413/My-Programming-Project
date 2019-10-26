@@ -32,6 +32,8 @@
 
 * [yolov3-tiny.cfg](https://gist.github.com/e96031413/bd77222a608999db2e58922f1be35d76) - YOLOv3 Tiny的cfg檔案（針對單class)
 
+* [yolov2-tiny.cfg](https://gist.github.com/e96031413/d703c1a6c35fe3923122ce543a29642f) - YOLOv2 Tiny的cfg檔案（針對單class)
+
 ### 自動辨識與成果影片上傳Script
 
 * [auto-predict.sh](https://gist.github.com/e96031413/4d03e70e6f7f4a1c452d1a59ac1a1363) - 將外網FTP所上傳的影片複製到darknet資料夾、針對影片進行辨識、將結果自動上傳到Youtube
