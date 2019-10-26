@@ -1,5 +1,15 @@
 # 使用YOLOv3演算法進行水雉辨識
 
+### 完整設定好的darknet
+
+分別為Ubuntu上的pjreddie版本和AlexeyAB版本
+
+* [pjreddie版本](https://drive.google.com/file/d/1D5zT_yOcNYCr4W1wkQGZvg9Lj-2TOJ8R/view?usp=sharing
+) - 官方版，含權重、cfg......等檔案870MB。
+
+* [AlexeyAB版本](https://drive.google.com/file/d/1xzXZ1GAUu_j4mTMMV2kcnqKYT_eKIVkl/view?usp=sharing
+) - 【推薦】優化版，具有辨識結果影片保存功能、偵測性能比原版好、Boundbox旁包含辨識率數字。含權重、cfg......等檔案463MB。
+
 ### 水雉圖片下載
 
 本壓縮檔包含原始圖片1200張、標記好的圖片、標記好的label txt文件......等
