@@ -4,6 +4,8 @@
 
 [了解詳情](https://github.com/e96031413/OpenCV-YOLOv3-Python-Jacana)
 
+---
+
 ### 完整設定好的darknet
 
 分別為Ubuntu上的pjreddie版本和AlexeyAB版本
