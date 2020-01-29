@@ -1,5 +1,11 @@
 # 使用YOLOv3演算法進行水雉辨識
 
+### 2020年1月18更新: 透過OpenCV執行YOLOv3的方法(基於Python)
+
+[OpenCV-YOLOv3-Python-Jacana](https://github.com/e96031413/OpenCV-YOLOv3-Python-Jacana)
+
+## 本文:
+
 ### 完整設定好的darknet
 
 分別為Ubuntu上的pjreddie版本和AlexeyAB版本
